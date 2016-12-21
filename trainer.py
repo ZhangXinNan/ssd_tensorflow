@@ -2,6 +2,8 @@ import tensorflow as tf
 import model
 import matcher
 from matcher import Matcher
+import sys
+sys.path.append("../coco/PythonAPI")
 import coco_loader as coco
 import constants as c
 from constants import layer_boxes, classes
@@ -9,7 +11,7 @@ from ssd_common import *
 import numpy as np
 import tf_common as tfc
 import signal
-import sys
+#import sys
 import cv2
 import colorsys
 import time
